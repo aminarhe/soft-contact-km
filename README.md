@@ -15,6 +15,7 @@ plots/     generated PNGs (same names as the plots/ folder in Overleaf)
 | `figures/fig_variables.py` | `plots/fig_variables.png`: set-up and variables |
 | `figures/fig_curvature.py` | `plots/fig_curvature.png`: pressure and curvature (1D piece) |
 | `figures/fig_two_curvatures.py` | `plots/fig_two_curvatures.png`: curvature in two directions |
+| `figures/fig_deformed_element.py` | `plots/fig_deformed_element.png`: forces on the deformed membrane element |
 
 ## Run
 
@@ -25,6 +26,7 @@ pip install numpy matplotlib
 python figures/fig_variables.py
 python figures/fig_curvature.py
 python figures/fig_two_curvatures.py
+python figures/fig_deformed_element.py
 ```
 
 Scripts can be run from any folder; outputs always go to `plots/`.
